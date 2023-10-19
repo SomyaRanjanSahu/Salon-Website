@@ -26,7 +26,7 @@
   <p align="center">
     Frontend page of a salon website.
     <br />
-    <a href="">View Live</a>
+    <a href="https://salonweb.vercel.app/">View Live</a>
   </p>
 </p>
 
