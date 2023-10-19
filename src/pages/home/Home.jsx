@@ -77,7 +77,7 @@ function Home() {
         </section>
         <section className="contact">
           <h2>Contact Us</h2>
-          <p>Silvassa, Gujarat<br />Silvassa, Gujarat<br />Phone: +1 123-456-7890</p>
+          <p>Silvassa, Gujarat<br />Salon@gmail.com<br />Phone: +1 123-456-7890</p>
         </section>
       </main>
       <footer>
