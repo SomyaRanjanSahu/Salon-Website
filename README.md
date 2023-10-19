@@ -1,4 +1,66 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Project-Salon_Website-yellow.svg)
+![](https://img.shields.io/badge/Level-Intermediate-orange.svg)
+![](https://img.shields.io/badge/Status-Complete-green.svg) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+<!-- Other badges-->
+
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
+<!-- Other badges-->
+
+<br />
+<p align="center">
+    <img src="https://i.postimg.cc/5tgMM1SB/barber.png" alt="Logo" width="80">
+  </a>
+
+  <h3 align="center">Salon Website</h3>
+
+  <p align="center">
+    Frontend page of a salon website.
+    <br />
+    <a href="">View Live</a>
+  </p>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+      </ul>
+        <li><a href="#built-with">Built With</a></li>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+      </ul>
+    </li>
+    <li><a href="#screenshots">Screenshots</a></li>
+  </ol>
+</details>
+
+## About The Project
+
+This project is a React-based frontend for a salon shop website. It provides a visually appealing and user-friendly interface for customers to explore the salon's services, team, and contact information. The website includes sections for services offered, team members, and a contact page with a Google Map integration. It also features responsive design to ensure a seamless experience on various devices.
+
+## Built With
+
+Following technologies and libraries are used for the development of this website
+
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +130,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Screenshots
+
+<img src="src/assets/website/home.png" alt="img" width="100%">
+<img src="src/assets/website/service.png" alt="img" width="100%">
+<img src="src/assets/website/gallery.png" alt="img" width="100%">
+<img src="src/assets/website/contact.png" alt="img" width="100%">
+
+## References
+
+- [Design](https://dribbble.com/shots/19660093-SQUIRE-Booking-Widget)
+- [Images](https://unsplash.com/s/photos/barber)

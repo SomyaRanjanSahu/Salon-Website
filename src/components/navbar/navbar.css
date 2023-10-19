@@ -1,0 +1,50 @@
+/* Navbar  */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: transparent;
+    z-index: 9999;
+  }
+  
+  .navbar__logo img {
+    width: 70px;
+    padding: 8px;
+  }
+  
+  .navbar__menu {
+    cursor: pointer;
+  }
+  
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 12px 0 0;
+    width: 30px;
+    height: 25px;
+  }
+  
+  .hamburger-line {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(153, 156, 165);
+    border-radius: 2px;
+  }
+  
+  .hamburger-icon.open .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 10px);
+  }
+  
+  .hamburger-icon.open .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-icon.open .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -10px);
+  }

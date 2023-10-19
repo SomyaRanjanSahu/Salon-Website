@@ -1,0 +1,111 @@
+.gallery {
+  padding: 5rem 2rem  0 2rem ;
+}
+
+.gallery h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 1rem 0 0 0;
+  color: #e6e6e6;
+}
+
+.gallery h3{
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 1rem 0 0 0;
+  color: #838383;
+}
+
+.gallery p {
+  text-align: center;
+  color: rgb(160, 159, 159);
+  margin-bottom: 5rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem auto 5rem auto;
+  padding: 0 6em;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.close-modal {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: #fff;
+  font-size: 50px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-modal:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .gallery p {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery h2 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery h2 {
+    font-size: 1.5rem;
+  }
+}

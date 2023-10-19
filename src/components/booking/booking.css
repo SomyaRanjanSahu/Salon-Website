@@ -1,0 +1,438 @@
+/* Booking container */
+
+.booking-overlay {
+  position: fixed;
+  right: -100%;
+  bottom: 3.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* z-index: 999; */
+  animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    right: -100%;
+  }
+
+  100% {
+    right: 3.1rem;
+  }
+}
+
+.booking-container {
+  background-color: #ebebeb;
+  padding: 20px;
+  position: relative;
+  width: 240px;
+  height: 520px;
+  border-radius: 38px;
+  box-shadow: 0px 0px 0px 8px #1f1f1f, 0px 0px 0px 10px #191919,
+    0px 0px 0px 15px #111;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &:after {
+    bottom: 7px;
+    width: 124px;
+    height: 4px;
+    background-color: #2b2a2a;
+    border-radius: 10px;
+  }
+
+  &:before {
+    top: 0px;
+    width: 54%;
+    height: 22px;
+    background-color: #1f1f1f;
+    border-radius: 0px 0px 40px 40px;
+  }
+}
+
+i,
+b,
+span {
+  position: absolute;
+  display: block;
+  color: transparent;
+}
+
+i {
+  top: -3px;
+  left: 50%;
+  transform: translate(-50%, 6px);
+  height: 7px;
+  width: 15%;
+  background-color: #101010;
+  border-radius: 8px;
+  box-shadow: inset 0px -3px 3px 0px rgba(256, 256, 256, 0.2);
+}
+
+b {
+  left: -4%;
+  top: -3px;
+  transform: translate(180px, 4px);
+  width: 10px;
+  height: 10px;
+  background-color: #101010;
+  border-radius: 12px;
+  box-shadow: inset 0px -3px 2px 0px rgba(256, 256, 256, 0.2);
+
+  &:after {
+    content: '';
+    position: absolute;
+    background-color: #2d4d76;
+    width: 5px;
+    height: 5px;
+    top: 2px;
+    left: 2px;
+    top: 3px;
+    left: 3px;
+    display: block;
+    border-radius: 4px;
+    box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.booking-container hr {
+  margin: 0 auto;
+}
+
+.booking-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 18px;
+}
+
+.booking-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.close-button {
+  padding: 0;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+/* Choose gender */
+
+.gender-buttons-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.gender-buttons-container h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.gender-buttons-container button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #ebebeb;
+  color: rgb(29, 29, 29);
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgb(151, 151, 151);
+  width: 70%;
+}
+
+.gender-buttons-container .female-button:hover {
+  background-color: rgb(248, 139, 157);
+  color: white;
+}
+
+.gender-buttons-container .male-button:hover {
+  background-color: rgb(108, 184, 238);
+  color: white;
+}
+
+.gender-picture {
+  width: 250px;
+}
+
+/* Services section */
+
+.service-back-button {
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  background-color: #ebebeb;
+  font-size: 30px;
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Booking container */
+
+.booking-overlay {
+  position: fixed;
+  right: -100%;
+  bottom: 3.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* z-index: 999; */
+  animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    right: -100%;
+  }
+
+  100% {
+    right: 3.1rem;
+  }
+}
+
+.booking-container {
+  background-color: #ebebeb;
+  padding: 20px;
+  position: relative;
+  width: 240px;
+  height: 520px;
+  border-radius: 38px;
+  box-shadow: 0px 0px 0px 8px #1f1f1f, 0px 0px 0px 10px #191919,
+    0px 0px 0px 15px #111;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &:after {
+    bottom: 7px;
+    width: 124px;
+    height: 4px;
+    background-color: #2b2a2a;
+    border-radius: 10px;
+  }
+
+  &:before {
+    top: 0px;
+    width: 54%;
+    height: 22px;
+    background-color: #1f1f1f;
+    border-radius: 0px 0px 40px 40px;
+  }
+}
+
+i,
+b,
+span {
+  position: absolute;
+  display: block;
+  color: transparent;
+}
+
+i {
+  top: -3px;
+  left: 50%;
+  transform: translate(-50%, 6px);
+  height: 7px;
+  width: 15%;
+  background-color: #101010;
+  border-radius: 8px;
+  box-shadow: inset 0px -3px 3px 0px rgba(256, 256, 256, 0.2);
+}
+
+b {
+  left: -4%;
+  top: -3px;
+  transform: translate(180px, 4px);
+  width: 10px;
+  height: 10px;
+  background-color: #101010;
+  border-radius: 12px;
+  box-shadow: inset 0px -3px 2px 0px rgba(256, 256, 256, 0.2);
+
+  &:after {
+    content: '';
+    position: absolute;
+    background-color: #2d4d76;
+    width: 5px;
+    height: 5px;
+    top: 2px;
+    left: 2px;
+    top: 3px;
+    left: 3px;
+    display: block;
+    border-radius: 4px;
+    box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.booking-container hr {
+  margin: 0 auto;
+}
+
+.booking-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 18px;
+}
+
+.booking-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.close-button {
+  padding: 0;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+/* Choose gender */
+
+.gender-buttons-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.gender-buttons-container h2 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.gender-buttons-container button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #ebebeb;
+  color: rgb(29, 29, 29);
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid rgb(151, 151, 151);
+  width: 70%;
+}
+
+.gender-buttons-container .female-button:hover {
+  background-color: rgb(248, 139, 157);
+  color: white;
+}
+
+.gender-buttons-container .male-button:hover {
+  background-color: rgb(108, 184, 238);
+  color: white;
+}
+
+.gender-picture {
+  width: 300px;
+}
+
+/* Services section */
+
+.service-back-button {
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  background-color: #ebebeb;
+  font-size: 30px;
+}
+
+.service-header {
+  position: sticky;
+  top: 0;
+  background-color: #ebebeb;
+  z-index: 1;
+  margin-bottom: 0;
+}
+
+.male-services,
+.female-services {
+  overflow-y: auto;
+  max-height: calc(100% - 90px);
+}
+
+.service-type {
+  text-align: center;
+}
+
+.male-services ul,
+.female-services ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+.male-services ul:last-child li:last-child,
+.female-services ul:last-child li:last-child {
+  margin-bottom: 10px;
+}
+
+.male-services::-webkit-scrollbar,
+.female-services::-webkit-scrollbar {
+  display: none;
+}
+
+.male-services ul li,
+.female-services ul li {
+  text-align: center;
+  width: 50%;
+  padding: 5px 0;
+  width: 70%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+}
+
+.male-services ul li:hover,
+.female-services ul li:hover {
+  cursor: pointer;
+  background-color: #2b2a2a;
+  color: white;
+}
+
+.male-services ul li:nth-child(2n+1)::after,
+.female-services ul li:nth-child(2n+1)::after {
+  content: "";
+  display: table;
+  clear: both;
+}

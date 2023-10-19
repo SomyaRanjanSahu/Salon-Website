@@ -1,0 +1,131 @@
+/* Service page  */
+
+.service-page {
+  position: relative;
+}
+
+/* Header */
+
+.background-image {
+  background-image: url('../../assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+.blur {
+  backdrop-filter: blur(3px);
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.content img {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.content h1 {
+  font-size: 3.1rem;
+  margin-bottom: 0;
+  width: 70%;
+  font-weight: 500;
+  line-height: 3.5rem;
+  color: rgb(221, 220, 220);
+}
+
+.content p {
+  font-size: 1.3rem;
+  margin: 1rem 0 3rem 0;
+  color: rgb(196, 195, 195);
+  width: 50%;
+  font-weight: 200;
+}
+
+.content a {
+  font-size: 1.2rem;
+  color: rgb(196, 195, 195);
+  margin: 0;
+  font-weight: 200;
+}
+
+.book-now {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: rgba(143, 143, 143, 0.3);
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.book-now button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* .content {
+    font-size: 2rem;
+    width: 80%;
+  } */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* .content {
+    margin: 2rem auto;
+    width: 60%;
+  } */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    align-items: center;
+    text-align: left;
+  }
+
+  .content h1 {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+
+  .content p {
+    font-size: 1.5rem;
+    width: 80%;
+  } */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* .content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .content h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .content p {
+    font-size: 1.8rem;
+  } */
+}
