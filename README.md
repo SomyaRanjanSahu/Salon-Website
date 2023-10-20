@@ -46,6 +46,8 @@
       </ul>
     </li>
     <li><a href="#screenshots">Screenshots</a></li>
+      <li><a href="#contributors">Contributors</a></li>
+      <li><a href="#references">References</a></li>
   </ol>
 </details>
 
@@ -137,6 +139,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <img src="src/assets/website/service.png" alt="img" width="100%">
 <img src="src/assets/website/gallery.png" alt="img" width="100%">
 <img src="src/assets/website/contact.png" alt="img" width="100%">
+
+## Contributors
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Akash-1612"><img src="https://avatars.githubusercontent.com/u/73643555?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akash Yadav</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/SomyaRanjanSahu"><img src="https://avatars.githubusercontent.com/u/63153316?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Somya Ranjan Sahu</b></sub></a><br /></td>
+  </tr>
+</table>
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ## References
 
