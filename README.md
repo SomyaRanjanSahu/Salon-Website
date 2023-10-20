@@ -24,7 +24,7 @@
   <h3 align="center">Salon Website</h3>
 
   <p align="center">
-    Frontend page of a salon website.
+    Full Stack Web Application for Hair Salon
     <br />
     <a href="https://salonweb.vercel.app/">View Live</a>
   </p>
@@ -53,7 +53,7 @@
 
 ## About The Project
 
-This project is a React-based frontend for a salon shop website. It provides a visually appealing and user-friendly interface for customers to explore the salon's services, team, and contact information. The website includes sections for services offered, team members, and a contact page with a Google Map integration. It also features responsive design to ensure a seamless experience on various devices.
+This project is a MERN Application for a salon shop website. It provides a visually appealing and user-friendly interface for customers to explore the salon's services, team, and contact information. The website includes sections for services offered, team members, and a contact page with a Google Map integration. It also features responsive design to ensure a seamless experience on various devices.
 
 ## Built With
 
@@ -61,6 +61,9 @@ Following technologies and libraries are used for the development of this websit
 
 - [React](https://reactjs.org/)
 - [React Router](https://reactrouter.com/)
+- [NodeJS](https://nodejs.org/en)
+- [ExpressJS](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
 
 ## Getting Started
 
